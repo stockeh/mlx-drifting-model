@@ -1,0 +1,17 @@
+[project]
+name = "mlx-drifting-model"
+version = "0.1.0"
+description = "MLX Drifting Model"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "mlx>=0.30.6",
+    "tqdm>=4.67.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.0",
+    "ty>=0.0.15",
+]
