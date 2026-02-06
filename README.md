@@ -1,6 +1,6 @@
 # Drifiting Models in MLX
 
-A generative model that evolves the pushforward distribution during training for single-step inference implemented in [MLX](https://github.com/ml-explore/mlx). Based on [Generative Models via Drifting](https://arxiv.org/abs/2602.04770).
+A generative model that evolves the pushforward distribution during training with a drifting field that naturally allows for single-step inference. Implemented minimally in [MLX](https://github.com/ml-explore/mlx) in [`main.py`](main.py). Based on [Generative Models via Drifting](https://arxiv.org/abs/2602.04770).
 
 ![Swiss Roll](media/swiss_roll-figure.png)
 
