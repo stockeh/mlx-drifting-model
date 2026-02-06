@@ -7,7 +7,11 @@ A generative model that evolves the pushforward distribution during training for
 ## Setup
 
 ```bash
+# install and run
 uv sync
+uv run main.py
+
+# cli arguments
 uv run main.py --help
 options:
   -h, --help
